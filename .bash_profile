@@ -1,7 +1,5 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH:~/Library/Android/sdk/platform-tools/";
-export DEV_SERVER=user:jeff;
-export branch=feature-bootstrap;
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$HOME/bin:$PATH:~/Library/Android/sdk/platform-tools/";
 #export PATH="$HOME/bin:$PATH";
 
 echo "All that is gold does not glitter, Not all those who wander are lost;
@@ -9,6 +7,9 @@ The old that is strong does not wither, Deep roots are not reached by the frost.
 
 From the ashes a fire shall be woken, A light from the shadows shall spring;
 Renewed shall be blade that was broken, The crownless again shall be king."
+
+# run screenfetch
+screenfetch
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -55,3 +56,4 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
