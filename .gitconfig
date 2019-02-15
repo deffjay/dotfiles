@@ -167,7 +167,7 @@
 	trustExitCode = true
 [user]
 	name = Jeff Day
-	email = jeff@connectedinteractive.com
+	email = deffjay@gmail.com
 [credential]
 	helper = osxkeychain
 [filter "lfs"]
