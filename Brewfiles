@@ -3,6 +3,7 @@ brew "mas"
 mas "Xcode", id: 497799835
 cask 'visual-studio-code'
 cask "android-studio"
+brew "screenfetch"
 brew "git"
 brew "git-lfs"
 brew "lynx"
