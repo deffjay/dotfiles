@@ -828,7 +828,7 @@ cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ 
 ###############################################################################
 
 # Set up my preferred keyboard shortcuts
-cp -r init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+cp -r init/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
 
 ###############################################################################
 # Transmission.app                                                            #
@@ -926,3 +926,4 @@ for app in "Activity Monitor" \
 	killall "${app}" &> /dev/null
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
+
