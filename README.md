@@ -1,7 +1,8 @@
 # Deffjay's dotfiles 
 Source by Mathias’s dotfiles
 
-(<blockquote class="imgur-embed-pub" lang="en" data-id="a/AjRauNy"><a href="//imgur.com/a/AjRauNy"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/AjRauNy"></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## Installation
 
@@ -64,7 +65,7 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
-You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/mathiasbynens/dotfiles/fork) instead, though.
+You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/deffjay/dotfiles/fork) instead, though.
 
 ### Sensible macOS defaults
 
