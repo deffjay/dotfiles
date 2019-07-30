@@ -2,7 +2,7 @@
 Source by Mathias’s dotfiles
 
 
-https://user-images.githubusercontent.com/1086386/62112432-91dbfd80-b267-11e9-8d33-ab5da46e75f1.png
+<img src="https://user-images.githubusercontent.com/1086386/62112432-91dbfd80-b267-11e9-8d33-ab5da46e75f1.png">
 
 ## Installation
 
