@@ -2,7 +2,7 @@
 Source by Mathias’s dotfiles
 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/AjRauNy"></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+https://user-images.githubusercontent.com/1086386/62112432-91dbfd80-b267-11e9-8d33-ab5da46e75f1.png
 
 ## Installation
 
