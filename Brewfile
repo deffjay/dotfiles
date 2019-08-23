@@ -1,15 +1,31 @@
-tap "caskroom/versions" 
-cask "adoptopenjdk8" #Open bug https://github.com/AdoptOpenJDK/homebrew-openjdk/issues/106
-
 tap "homebrew/cask"
-mas 'xcode', id: 497799835 
-mas '1Password', id: 1333542190
-
-cask "visual-studio-code"
+brew "mas"
+mas "Xcode", id: 497799835
+cask 'visual-studio-code'
 cask "spectacle"
 cask "karabiner-elements"
 cask "sourcetree"
-cask 'docker'
-cask 'dropbox'
-cask 'virtualbox'
-cask 'iterm2'
+cask "slack"
+cask "java8"
+brew "screenfetch"
+brew "lolcat"
+brew "git"
+brew "git-lfs"
+brew "lynx"
+brew "p7zip"
+brew "pigz"
+brew "pv"
+brew "rename"
+brew "rlwrap"
+brew "ack"
+brew "ssh-copy-id"
+brew "tree"
+brew "vbindiff"
+brew "zopfli"
+brew "openssh"
+brew "openssl"
+brew "tmux"
+brew "grep"
+brew "php"
+brew "gmp"
+
